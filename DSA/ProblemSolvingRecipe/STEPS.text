@@ -1,0 +1,56 @@
+Step 1: Understand the problem
+-can we restate the problem in our own words?
+-what are the inputs that go into the problem?
+-what are the outputs that come from the problem?
+-can the outputs be determined from the inputs?
+In other words do we have enough information to 
+solve this problem?
+-what should i label the important piece of data 
+that are the part of the problem?
+
+Step 2: Examples
+1) -start with simple Examples
+2) -progress to more complex Examples
+3) -explore examples with empty
+4) -explore the examples with invalud inputs
+
+
+
+write a function with takes in a string and returns
+count of each character in the string
+
+#step 1 - simple examples
+
+charCount("bbbb")
+# {b : 4}
+
+charCount("hello")
+# {h :1, e:1, l:2, o:1}
+
+#step 2 - complex examples
+"my name is Elshad"
+(isupper?)
+(islower?)
+(palendrom?)
+
+#step 3 - empty
+charCount("")
+ask the interviewer
+
+#step 4 - Invalid inputs
+charCount(1)?
+
+Step 3: Break it Down
+Step 4: Solve or Simplify
+Step 5: Look Back and Refactor
+
+
+ex: 
+write a function that takes two numbers and 
+returns their sum.
+
+step 1: implement addition
+step 2: integer? float? Or?
+step 3: integer? float? Or?
+step 4: Yes
+step 5: Add, sum

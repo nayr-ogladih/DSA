@@ -1,0 +1,13 @@
+Syntax: assert {condition}, {message}
+
+example:
+
+Create a sequence of numbers from 0 - 6, and print each item in the sequence:
+
+x = 2
+assert x < 1, 'x is not less than 1'
+
+output:
+AssertionError: x is not less than 1'
+
+Because the condition here (x<1) is not met, so it raises error.

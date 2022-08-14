@@ -1,0 +1,9 @@
+steps:
+-------------------------
+create queue
+enqueue
+dequeue
+peek
+isEmpty
+isFull
+deleteqeueue

@@ -1,0 +1,21 @@
+full binary tree - if each node of a binary tree has *zero or two children*.
+perfect binary tree - all leaf nodes are located in the same level and all have two children.
+complete binary tree - all levels are complelety filled except the last level.
+balanced binary - all leaf nodes are the same distance from the root node.
+
+
+
+BINARY TREE REPRESENTATION
+
+- LINKED LIST
+- PYTHON LIST (ARRAY)
+
+
+Create binary tree using linked list
+
+-creation of tree
+-insertion of a node
+-deletion of a node
+-search for a value
+-traverse all nodes
+-deletion of tree

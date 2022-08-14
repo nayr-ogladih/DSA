@@ -1,0 +1,26 @@
+1. Come up with a condition to determine whether the answer lies before, after or
+at a given position.
+2. Find the middle element of the list.
+3. If it matches queried number, return the middle position as the answer.
+4. If it is less than the queried number, then search the first half of the list.
+5. If it is greater than the queried number, then search the second half of the list.
+6. If no more elementes remain, return -1.
+
+
+generic algorith for binary search
+
+def binary_search(lo, hi, condition):
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        result = condition(mid)
+        if result == 'found':
+            return mid
+        elif result == 'left':
+            hi = mid - 1
+        else:
+            lo = mid + 1
+    return -1
+
+
+
+
