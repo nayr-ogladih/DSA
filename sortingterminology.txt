@@ -1,0 +1,59 @@
+increasing order
+- if successive element is greater than the previous one
+    ex: 1,3,5,7,9,11
+
+decreasing order
+- if successive element is less than the previous one
+non increasing order
+    ex: 11,9,7,5,3,1
+
+- if successive element is less than or equal to its previous element 
+in the sequence
+    ex: 11,9,7,5,5,3,1
+
+non decreasing order
+-if successive element is greater than or equal to its previous element
+in the sequence
+    ex: 1,3,5,7,7,9,11
+
+
+Types of sorting algorithms
+
+bubble sort
+-also referred as sinking sort
+-we repeatedly compare each pair of adjacent items and swap them if they 
+are in the wrong order
+
+selection sort
+- in case of selection sort we repeatedly find the minimum element
+and move it to the sorted part of array to make undorted part sorted
+
+insertion sort
+-divide the given array into two parts
+-take first element from unsorted array and find its correct position 
+in sorted array
+-repeat until unsorted array is empty
+
+bucket sort
+-create buckets and distribute elements of array into buckets
+-sort buckets individually
+-merge buckets after sorting
+-Number of buckets = round(Sqrt(number of elements))
+
+merge sort
+-merge sort is a divide and conquer algorithms
+-divide the input array in two halves and we keep halving recursively until
+they become too small that cannot be broken further
+-merge halves by sorting them
+
+quick sort
+-quick sort is a divide and conquer algorithm
+-find pivot number and make sure smaller numbers located at the let pivot
+and bigger numbers are located at the right of the pivot.
+-unlike merge sort extra space is not required
+
+heap sort
+-step 1 insert data to binary heap tree
+-step 2 extract data from binary heap
+-it is best suited with array, it does not work with linked list
+
