@@ -1,0 +1,10 @@
+# - a backtracking algorithm is a problem-solving algorithm that uses a brute force
+    approach for finding the desired output.
+# - backtracking checks whether the given node is avalid solution or not.
+# - discard several invalid solutions with one iteration.
+# - enumerate all subree of the node to find the valid solution.
+
+# THREE TYPES
+# - decision problem. -> search for a feasible solution.
+# - optimization problem. -> search for the best solution.
+# - enumeration problem. -> find all feasible solutions.
